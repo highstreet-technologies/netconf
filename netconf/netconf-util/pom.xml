@@ -16,7 +16,7 @@
     <relativePath>../../parent</relativePath>
   </parent>
 
-  <groupId>org.opendaylight.netconf</groupId>
+  <groupId>com.highstreet-technologies.netconf</groupId>
   <artifactId>netconf-util</artifactId>
   <version>1.13.4</version>
   <name>${project.artifactId}</name>
@@ -25,11 +25,11 @@
   <dependencies>
     <!-- compile dependencies -->
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>org.opendaylight.netconf</groupId>
       <artifactId>netconf-api</artifactId>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>org.opendaylight.netconf</groupId>
       <artifactId>netconf-mapping-api</artifactId>
     </dependency>
     <dependency>

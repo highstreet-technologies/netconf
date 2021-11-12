@@ -15,7 +15,7 @@
     <relativePath>../../parent</relativePath>
   </parent>
 
-  <groupId>org.opendaylight.netconf</groupId>
+  <groupId>com.highstreet-technologies.netconf</groupId>
   <artifactId>sal-netconf-connector</artifactId>
 
   <!-- Preserve version from mdsal -->
@@ -24,15 +24,15 @@
 
   <dependencies>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>org.opendaylight.netconf</groupId>
       <artifactId>ietf-netconf-monitoring</artifactId>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>org.opendaylight.netconf</groupId>
       <artifactId>ietf-netconf-monitoring-extension</artifactId>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>org.opendaylight.netconf</groupId>
       <artifactId>ietf-netconf-notifications</artifactId>
     </dependency>
     <dependency>
@@ -40,11 +40,11 @@
       <artifactId>rfc8525</artifactId>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>org.opendaylight.netconf</groupId>
       <artifactId>netconf-client</artifactId>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>org.opendaylight.netconf</groupId>
       <artifactId>netconf-notifications-api</artifactId>
     </dependency>
     <dependency>
@@ -100,8 +100,9 @@
       <artifactId>yang-ext</artifactId>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.highstreet-technologies.netconf</groupId>
       <artifactId>netconf-util</artifactId>
+      <version>1.13.4</version>
     </dependency>
     <dependency>
       <groupId>com.guicedee.services</groupId>
@@ -118,17 +119,17 @@
       <artifactId>xmlunit-legacy</artifactId>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>org.opendaylight.netconf</groupId>
       <artifactId>netconf-impl</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>org.opendaylight.netconf</groupId>
       <artifactId>netconf-mapping-api</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>org.opendaylight.netconf</groupId>
       <artifactId>netconf-util</artifactId>
       <type>test-jar</type>
       <scope>test</scope>
